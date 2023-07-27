@@ -27,3 +27,9 @@ section ol li {
 #area2{
     background-color: rgb(72, 24, 150);
 }
+
+
+.imgstyle {
+    width: 300px;
+    height: auto;
+  }
