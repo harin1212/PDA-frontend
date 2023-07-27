@@ -19,3 +19,11 @@ section ul li {
 section ol li {
     list-style-type: lower-roman;
 }
+
+/* id : #, class : .*/
+#area1{
+    background-color: brown;
+}
+#area2{
+    background-color: rgb(72, 24, 150);
+}
