@@ -1,0 +1,39 @@
+
+
+p{
+    background-color: silver;
+    width: 300px;
+}
+
+p+div{
+    border: 1px solid red;
+    width: 300px;
+    height: 200px;
+}
+
+a{
+    width: 300px;
+    height: 150px;
+    border: 1px solid silver;
+    display: inline-block;
+}
+
+a:link{
+    background-color: darkblue;
+    color: white;
+}
+
+a:active{
+    background-color: yellowgreen;
+    color: skyblue;
+}
+
+a:hover{
+    background-color: yellow;
+    color: magenta;
+}
+
+a:visited{
+    background-color: red;
+    color : darkblue
+}
