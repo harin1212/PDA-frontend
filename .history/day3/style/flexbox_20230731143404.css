@@ -1,0 +1,9 @@
+.t{
+    border:1px solid silver;
+    width: 100px;
+    height: 100px;
+}
+
+#wrap{
+    display: flex;
+}

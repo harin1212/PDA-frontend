@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'MaruBuri';
+    src: url('https://fonts.gstatic.com/s/maruburi/v3/WWXXljSb5LRN--ZIYJxzQFvzKzgkOY2yew.otf') format('opentype');
+}
+
+#wrap{
+    width: 85%;
+    margin: 0 auto;
+    background-color: rgba(250, 244, 236, 0.684);
+}
+
+header{
+    font-family: 'MaruBuriBold';
+    border: 2px solid silver;
+    padding: 1vh 10vw;
+
+}
+
+main{
+    margin-top:2vh;
+    display: flex;
+    flex-direction : row;
+    justify-content : space-between;
+}
+
+main aside{
+    width: 20%;
+    border: 2px solid silver;
+    margin: 1%;
+    margin-bottom: 10%;
+    padding: 3%;
+    
+}
+
+aside h3{
+    position: relative;
+    left:2vw;
+}
+
+aside ul li{
+    list-style: none;
+}
+
+aside ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.8vh 0vw;
+}
+
+section{
+    width: 50%;
+    border: 2px solid silver;
+    margin: 1%;
+    padding: 2%;
+}
+
+section h2{
+    position: relative;
+    left: 2vw;
+}
+
+section p{
+    left: 4vw;
+    padding: 1vh;
+}
+
+section ul li{
+    padding: 200px;
+    
+}
+
+footer{
+    border: 2px solid silver;
+    padding: 2vh 2vw;
+}

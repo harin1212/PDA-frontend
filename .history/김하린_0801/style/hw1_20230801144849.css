@@ -1,0 +1,16 @@
+.imgstyle {
+    width: 200px;
+    height: auto;
+}
+div{
+    width: 1000px; height:1000px;
+    border: 1px solid silver;
+    background-image:url(image/logo1.jpg);
+    background-repeat: no-repeat;
+    /* background-position: 10% 50%; */
+    /* background-position: top; */
+    /* background-size: 300px; */
+    background-size: contain;
+    background-attachment: scroll;
+}
+

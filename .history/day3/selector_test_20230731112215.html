@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector Test</title>
+    <style>
+        /*div:first-child{
+            border: 2px solid silver;
+        }*/
+        /*div:first-of-type{
+            background-color: green;
+        }*/
+        /* div:nth-child(3n+1){
+            background-color: green;
+        } */
+        p:nth-of-type(2n){
+            background-color: green;
+        }
+        .test{
+            text-transform: capitalize;
+            text-decoration: underline;
+        }
+        .shadow{
+            color: red;
+            font-size: 20px;
+            text-shadow: 20px 20px 20px darkblue,
+            10px 10px 1px black,
+            20px 20px 20px yellow;
+        }
+    </style>
+</head>
+<!-- body : 형제 -->
+<body>
+    <!-- div, p : 자식 -->
+    <div>div-1</div>
+    <p>p-1</p>
+    <div>div-2</div>
+    <p>p-2</p>
+    <div>div-3</div>
+    <p>p-3</p>
+    <div>div-4</div>
+    <p>p-4</p>
+    <div class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quis corporis placeat?
+        Odio amet praesentium alias voluptate at iusto explicabo illo molestias nulla! Accusantium voluptates voluptas,
+        saepe laboriosam perspiciatis ullam?</div>
+    <div class="shadow">Hello</div>
+</body>
+</html>

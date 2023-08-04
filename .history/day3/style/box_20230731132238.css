@@ -1,0 +1,17 @@
+div{
+    width: 500px; height: 500px;
+    border-width: 3px 5px;
+    border-style: dotted;
+    border-color: red;
+    padding: 100px 50px 30px;
+    margin: 20px 100px;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    display: inline-block;
+    padding: 30px 150px;
+}

@@ -1,0 +1,31 @@
+div{
+    width: 500px; height: 500px;
+    border-width: 3px 5px;
+    border-style: dotted;
+    border-color: red;
+    padding: 100px 50px 30px;
+    margin: 20px 100px;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    display: inline-block;
+    border:1px solid silver;
+    padding: 30px 150px;
+    color: white;
+    background-color: darkblue;    
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 30px;
+}
+
+#box{
+    width: 100px; height: 100px;
+    border-width: 3px 10px;
+    border-bottom-width: 50px;
+    border-style: ㅑㅜㄴㄷㅅ; 
+    border-color: aqua;
+}

@@ -1,0 +1,16 @@
+.wrap{
+    width: 85%;
+    margin: 0 auto;
+    border: 1px solid silver;
+}
+
+header{
+    background-color: cadetblue;
+    border : 2px solid silver;
+}
+.imgstyle {
+    width: 200px;
+    height: auto;
+}
+
+

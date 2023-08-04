@@ -1,0 +1,25 @@
+#wrap{
+    margin: 5%;
+}
+
+header{
+    border: 2px solid silver;
+    padding: 20px;
+
+}
+
+section{
+    display: flex;
+}
+
+section aside{
+    border: 2px solid silver;
+    margin: 1%;
+    border-bottom: 10px;
+}
+
+article{
+    border: 2px solid silver;
+    padding: 50px 200px;
+    margin: 5%;
+}

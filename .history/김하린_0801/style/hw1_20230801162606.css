@@ -1,0 +1,33 @@
+.wrap{
+    width: 85%;
+    margin: 0 auto;
+    border: 1px solid silver;
+}
+
+header{
+    background-color: cadetblue;
+    border : 2px solid silver;
+    border-radius: 5px;
+    padding: 3%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+footer{
+    background-color: rgb(192, 108, 122);
+    border : 2px solid silver;
+    border-radius: 5px;
+    padding: 3%;
+    margin-top: 2%;
+}
+
+.imgstyle {
+    width: 200px;
+    height: auto;
+}

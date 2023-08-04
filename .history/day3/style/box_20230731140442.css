@@ -1,0 +1,47 @@
+div{
+    width: 500px; height: 500px;
+    border-width: 3px 5px;
+    border-style: dotted;
+    border-color: red;
+    padding: 100px 50px 30px;
+    margin: 20px 100px;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    display: inline-block;
+    border:1px solid silver;
+    padding: 30px 150px;
+    color: white;
+    background-color: darkblue;    
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 30px;
+    width: 100px; height: 30px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#box{
+    width: 150px;
+    border: 5px double rgb(21,21,63);
+    background-color: antiquewhite;
+    border-radius: 20px/50px;
+    padding:30px 0px;
+    text-align: center;
+    color:rgb(41,25,49);
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+#box1{
+    width: 100px; height: 30px;
+    border: 1px solid blue;
+    border-bottom: 3px double red;
+    border-radius: 50px;
+    text-align: center;
+}

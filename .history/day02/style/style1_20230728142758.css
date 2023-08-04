@@ -1,0 +1,30 @@
+div{
+    width: 100px; height: 100px;
+    background: yellow;
+    border: 2px solid blue;
+    float: left;
+    margin-right: 10px;
+}
+
+div[title~="h1"]{
+    color: brown;
+    font-size: 12px;
+}
+
+a{
+    diplay: block;
+}
+
+a[src*='com']{
+    color: red;
+}
+
+a[src*='http']{
+    border 3px solid green;
+}
+
+a[src*='com']{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}

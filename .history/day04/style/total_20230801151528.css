@@ -1,0 +1,16 @@
+/* @media screen{
+
+    body{
+        background-color: antiquewhite;
+    }
+    div{
+        border: 3px solid palevioletred;
+    }
+}
+
+@media print{
+    div{
+        color: purple;
+    }
+} */
+

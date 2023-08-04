@@ -1,0 +1,16 @@
+
+
+.list{
+    display: inline-block;
+    list-style: none;
+}
+
+
+
+section ul li {
+    list-style-type: square;
+}
+
+section ol li {
+    list-style-type: lower-roman;
+}

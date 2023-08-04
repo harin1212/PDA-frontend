@@ -1,0 +1,101 @@
+
+#wrap{
+    /* 가운데정렬 : margin 0 auto */
+    margin: 0 auto;
+    width : 85%
+}
+
+header{
+    background-color: rgb(201, 252, 252);
+    border: 3px solid silver;
+    padding: 20px;
+}
+
+nav{
+    background-color: #ecd2d2;
+    border-radius: 20px;
+    border : 3px solid silver;
+    height: 100px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    margin:0 auto;
+    color:white;
+    border: 3px solid purple;
+    border-radius: 30px;
+    background-color: purple;
+}
+
+div.content{
+    text-align: left;
+    display: flex;
+}
+
+aside{
+    width: 25%;
+    flex: 0 0 200px;
+    padding: 5px;
+    border: 3px solid silver;
+    border-radius: 30px;
+    background-color: rgb(188, 225, 213);
+    margin-right: 30px;
+    margin-bottom: 150px;
+}
+aside ul li{
+
+}
+
+aside ul li a:hover{
+    padding: 10px 30px;
+    color:white;
+    line-height:50px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgb(209, 174, 209);
+}
+
+article{
+    width: 70%;
+    flex: 1; 
+    padding: 30px; 
+    border: 3px solid silver;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 210);
+}
+
+section{
+    background-color: aliceblue;
+    border: 3px solid silver;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+section h3{
+    color: red;
+}
+
+footer{
+    background-color: rgb(194, 235, 235);
+    padding: 10px;
+    border: 3px solid silver;
+    border-radius: 30px;
+}
+
+.imgstyle {
+    width: 200px;
+    height: auto;
+}

@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'MaruBuri';
+    src: url('https://fonts.gstatic.com/s/maruburi/v3/WWXXljSb5LRN--ZIYJxzQFvzKzgkOY2yew.otf') format('opentype');
+}
+
+
+#wrap{
+    /* 가운데정렬 : margin 0 auto */
+    margin: 0 auto;
+    width : 85%
+}
+
+/* 헤더 */
+header{
+    background-color: rgb(201, 252, 252);
+    border: 3px solid silver;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+header img{
+    margin: 20px 0px 0px 20px;
+}
+
+header p{
+    margin-left: 20px;
+}
+
+/* 메인 */
+nav{
+    font-family: 'MaruBuriBold';
+    background-color: #ecd2d2;
+    border-radius: 20px;
+    border : 3px solid silver;
+    margin-top:10px;
+    height: 100px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 20px 50px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    /* margin:0 auto; */
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color: rgb(67, 18, 53);
+}
+
+/* aside, article 섹션 */
+div.content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+aside{
+    width: 15%;
+    flex: 0 0 200px;
+    padding: 10px;
+    border: 3px solid silver;
+    border-radius: 30px;
+    background-color: rgb(176, 193, 255);
+    margin-right: 30px;
+    margin-bottom: 80px;
+}
+
+.content aside li{
+    list-style: none;
+}
+
+.content aside ul li a{
+    font-family: 'MaruBuriBold';
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 30px 20px;
+}
+
+.content aside ul li a:hover{
+    padding: 10px 20px;
+    color:white;
+    line-height:50px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgb(144, 104, 255);
+}
+
+article{
+    /* width: 82%; */
+    flex: 1; 
+    padding: 30px; 
+    border: 3px solid silver;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 210);
+}
+
+section{
+    background-color: aliceblue;
+    border: 3px solid silver;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+section h3{
+    color: red;
+}
+
+/* footer섹션 */
+footer{
+    background-color: rgb(194, 235, 235);
+    border: 3px solid silver;
+    border-radius: 30px;
+}
+
+footer p{
+    padding: 30px 10px;
+}
+
+.imgstyle {
+    width: 200px;
+    height: auto;
+}

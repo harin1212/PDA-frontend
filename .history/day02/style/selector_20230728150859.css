@@ -1,0 +1,14 @@
+
+
+div{
+    background-color: silver;
+    width: 300px;
+}
+
+div+p{
+    border: 1px solid red;
+}
+
+div~p{
+    background-color: yellow;
+}

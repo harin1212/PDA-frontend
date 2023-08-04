@@ -1,0 +1,12 @@
+div{
+    width: 100px; height: 100px;
+    background: yellow;
+    border: 2px solid blue;
+    float: left;
+    margin-right: 10px;
+}
+
+div[title]{
+    color: brown;
+    font-size: 12px;
+}

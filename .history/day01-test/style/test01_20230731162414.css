@@ -1,0 +1,93 @@
+header{
+    background-color: rgb(201, 252, 252);
+    padding: 20px;
+    border: 5px solid silver;
+}
+
+#wrap{
+    margin: 20px;
+}
+
+.main{
+    background-color: #ecd2d2;
+    border-radius: 20px;
+    border : 3px solid silver;
+    height: 100px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    margin: 5px;
+    color:white;
+    border: 3px solid purple;
+    border-radius: 30px;
+    background-color: purple;
+}
+
+.t{
+    text-align: left;
+    display: flex;
+}
+
+aside{
+    flex: 0 0 200px;
+    padding: 5px;
+    border: 3px solid silver;
+    border-radius: 30px;
+    background-color: rgb(188, 225, 213);
+    margin-right: 30px;
+    margin-bottom: 150px;
+}
+
+
+aside nav ul li a:hover{
+    margin: 5px;
+    color:white;
+    line-height:50px;
+    border: 3px solid purple;
+    border-radius: 20px;
+    background-color: purple;
+}
+
+article{
+    flex: 1; 
+    padding: 30px; 
+    border: 3px solid silver;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 210);
+}
+
+section{
+    background-color: aliceblue;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+section h3{
+    color: red;
+}
+
+footer{
+    background-color: rgb(194, 235, 235);
+    padding: 10px;
+    border: 3px solid silver;
+    border-radius: 30px;
+}
+
+.imgstyle {
+    width: 200px;
+    height: auto;
+}

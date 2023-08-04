@@ -1,0 +1,47 @@
+
+#wrap{
+    width: 85%;
+    margin: 0 auto;
+}
+
+header{
+    border: 2px solid silver;
+    padding: 1vh 10vw;
+
+}
+
+main{
+    margin-top:2vh;
+    display: flex;
+    flex-direction : row;
+    justify-content : space-between;
+}
+
+main aside{
+    width: 20%;
+    border: 2px solid silver;
+    margin: 1%;
+    margin-bottom: 10%;
+    padding: 3%;
+}
+
+main aside ul li a{
+    text-align: center;
+}
+
+section{
+    width: 50%;
+    border: 2px solid silver;
+    margin: 1%;
+}
+
+section ul li{
+    padding: 200px;
+    
+}
+
+footer{
+    border: 2px solid silver;
+    margin-top: 2vh;
+    padding: 30px;
+}

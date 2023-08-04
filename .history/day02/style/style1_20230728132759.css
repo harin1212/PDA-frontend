@@ -1,0 +1,13 @@
+*{
+    background-color: rgb(158, 158, 174);
+}
+
+p.box{
+    width: 400px;
+    height: 300px;
+    border: 5px double blue; 
+}
+
+body{
+    display: block;
+}

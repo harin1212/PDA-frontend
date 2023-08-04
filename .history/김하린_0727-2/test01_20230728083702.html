@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-level semantics</title>
+    <link rel="stylesheet" href="style/test03.css">
+
+    <style>
+        p{text-indent: 10px;}
+        table{border-collapse: collapse;
+            border:1px solid rgb(0, 0, 0);
+            width:750px;
+            height:200px;
+        }
+        tr td, tr th{
+            border:1px solid rgb(0, 0, 0);
+            text-align: center;
+        }
+        col.t{
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+<body>
+<table>
+    <colgroup>
+        <col class="t">
+        <col span="2">
+        <col>
+        <col>
+    </colgroup>
+    <thead>
+        <tr>
+            <td>1</td><td colspan="2">2</td><td>3</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">4</td><td colspan="3">5</td>
+        </tr>
+        <tr>
+            <td>6</td><td>7</td><td>8</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

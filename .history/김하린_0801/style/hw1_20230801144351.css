@@ -1,0 +1,13 @@
+.imgstyle {
+    width: 200px;
+    height: auto;
+}
+
+
+div{
+    width: 1000px; height:1000px;
+    border: 1px solid silver;
+    background-image:url(image/logo2.jpg);
+    background-size: contain;
+    /* background-repeat: repeat-x; */
+}

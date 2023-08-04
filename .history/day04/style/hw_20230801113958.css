@@ -1,0 +1,12 @@
+#wrap{
+    margin: 5%;
+}
+
+header{
+    border: 2px solid silver;
+    padding: 20px;
+}
+
+section{
+    display: flex;
+}

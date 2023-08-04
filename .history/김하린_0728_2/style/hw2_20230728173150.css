@@ -1,0 +1,40 @@
+header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: block;
+}
+
+header nav ul li a{
+    color : white;
+    margin-left: 50px;
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+div{
+    padding: 50px;
+}
+
+section article{
+    float:left;
+}
+
+.container {
+    display: block; 
+}
+
+
+article {
+    flex: 1; 
+    padding: 20px; 
+}
+
+aside {
+    flex: 0 0 300px;
+    padding: 20px;
+}
+

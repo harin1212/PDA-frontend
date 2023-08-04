@@ -1,0 +1,26 @@
+div{
+    width: 100px; height: 100px;
+    background: yellow;
+    border: 2px solid blue;
+    float: left;
+    margin-right: 10px;
+}
+
+div[title~="h1"]{
+    color: brown;
+    font-size: 12px;
+}
+
+.Q1{
+    color: red;
+}
+
+.Q2{
+    border 3px solid green;
+}
+
+.Q3{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}

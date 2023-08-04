@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-level semantics</title>
+    <link rel="stylesheet" href="style/test03.css">
+
+    <style>
+        p{text-indent: 10px;}
+        table{border-collapse: collapse;
+            border:1px solid silver;
+            width:500px;
+        }
+        tr td, tr th{
+            border:1px solid silver;
+        }
+        col.t{
+            background-color: yellow;
+        }
+        tr th{
+            background-color: teal;
+        }
+        table.t2{
+            width:750px;
+            height: 20px;
+        }
+    </style>
+
+</head>
+<body>
+<table>
+    <colgroup>
+        <col class="t2">
+        <col span="2">
+    </colgroup>
+    <thead>
+        <tr>
+            <th scope="col">이름</th><th scope="col">나이</th><th scope="col">주소</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>김하나</td><td colspan="2">21</td>
+        </tr>
+        <tr>
+            <td>홍하나</td><td>20</td><td>서울</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

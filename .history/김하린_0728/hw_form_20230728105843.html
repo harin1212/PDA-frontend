@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW-FORM</title>
+</head>
+<body>
+    <header>
+        <h1>여름방학 특강 신청</h1>
+    </header>
+        <section>
+            <fieldset>
+                <legend>수강 신청인</legend>
+                <ul>
+                    <li>
+                        <label for="number">학번</label>
+                        <input type="text" name="number" id="number">
+                        <label for="name">이름</label>
+                        <input type="text" name="name" id="name">
+                    </li>
+                    <li>
+                        <label for="faculty">학과</label>
+                        <select name="faculty" id="faculty">
+                            <option value="1">건축공학과</option>
+                            <option value="2">수학과</option>
+                            <option value="3">컴퓨터공학과</option>
+                        </select>
+                    </li>
+                </ul>
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+                <legend>수강 과목을 선택하세요</legend>
+                <ul>
+                    <li>
+                        <label for="color">선호 색상</label>
+                        <input type="color" id="color" name="color" value="#000000">
+                    </li>
+                    <li>
+                        <label>신청 과목(회화)</label>
+                        <input type="radio" id="eng1" value="영어회화 초급" name="eng1" checked>
+                        <label type="radio">영어 회화(초급)</label>
+                        <input type="radio" id="eng2" value="영어회화 중급" name="eng2" >
+                        <label type="radio">영어 회화(중금)</label>
+                        <input type="radio" id="eng3" value="영어회화 고급" name="eng3>
+                        <label type="radio">영어 회화(고급)</label>
+                    </li>
+                    <li>
+                        <label>신청 과목(자격)</label>
+                        <input type="radio" id="toic" value="toic" name="engsub">
+                        <label type="radio">TOEIC</label>
+                        <input type="radio" id="toefl" value="toefl" name="engsub" >
+                        <label type="radio">TOEFL</label>
+                        <input type="radio" id="opic" value="opic" name="engsub" >
+                        <label type="radio">OPIC</label>
+                    </li>
+                    <li>
+                        <label for="interest">관심분야</label>
+                        <input type="text" name="interest" id="interest">
+                    </li>
+                </ul>
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+                <legend>강의 시간을 선택하세요</legend>
+                <ul>
+                    <li>
+                        <label for="course_start">개강 주</label>
+                        <input type="date" name="course_start" id="course_start">
+                    </li>
+                    <li>
+                        <label for="course_time">강의 시간</label>
+                        <input type="text" name="course_time" id="course_time" placeholder="-- --:--">
+                    </li>
+                </ul>
+            </fieldset>
+        </section>
+</body>
+</html>

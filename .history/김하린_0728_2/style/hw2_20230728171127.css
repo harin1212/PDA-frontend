@@ -1,0 +1,10 @@
+header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: block;
+}
+
+header nav ul li a{
+    color : white;
+    text-decoration: none;
+}
