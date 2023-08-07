@@ -136,7 +136,6 @@ prt3('test','test2');
 */
 
 //콜백 함수
-/*
 let fn = function(a, b, t1){
     console.log(a, b);
     t1(a,b); //콜백함수
@@ -144,13 +143,4 @@ let fn = function(a, b, t1){
 let add = function(num1, num2){
     console.log('add function', (num1 + num2));
 }
-fn(10,20,add); //add함수를 변수처럼 집어넣음
-*/
-
-[10,20,30].forEach(function(item){
-    console.log(item);
-});
-
-[10,20,30].forEach((item)=>{
-    console.log(item);
-})
+fn(10,20,add); //add함수를 변수처럼 집어넣음 

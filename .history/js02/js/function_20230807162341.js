@@ -100,57 +100,8 @@ show('a1','a2');
 */
 
 //spread syntax
-/*
 let arr1=[10,20,30];
 let arr2=[100,200,300];
-let arr3 = [...arr1, ...arr2]; //rest parameter
-
-let prt = function(t){
-    console.log(t[1]); //20
+let prt = function(a1, a2){
+    console.log(a1);
 }
-prt(arr3);
-*/
-
-//화살표 함수 표현식
-/*
-let add = function(a,b){
-    return a+b;
-}
-let tot=add(10,20);
-console.log(tot);
-
-let prt=()=>"hong"; //중괄호 없음 : return 하겠다
-let result = prt();
-console.log(result);
-
-let prt2=()=>{
-    console.log('test1');
-    console.log('test2');
-}
-prt2();
-
-let prt3=(a,b)=>{
-    console.log('a:', a, 'b:', b);
-}
-prt3('test','test2');
-*/
-
-//콜백 함수
-/*
-let fn = function(a, b, t1){
-    console.log(a, b);
-    t1(a,b); //콜백함수
-}
-let add = function(num1, num2){
-    console.log('add function', (num1 + num2));
-}
-fn(10,20,add); //add함수를 변수처럼 집어넣음
-*/
-
-[10,20,30].forEach(function(item){
-    console.log(item);
-});
-
-[10,20,30].forEach((item)=>{
-    console.log(item);
-})

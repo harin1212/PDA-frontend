@@ -147,10 +147,7 @@ let add = function(num1, num2){
 fn(10,20,add); //add함수를 변수처럼 집어넣음
 */
 
-[10,20,30].forEach(function(item){
-    console.log(item);
-});
+[10,20,30].forEach(fn);
+let fn=(item)=>{
 
-[10,20,30].forEach((item)=>{
-    console.log(item);
-})
+}
