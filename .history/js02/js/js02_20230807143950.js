@@ -328,7 +328,6 @@ for(let item of data){
 */
 
 //반복문 - while
-/*
 console.log('--------------------')
 let k = 1;
 while(k < 10){
@@ -352,10 +351,3 @@ while(h<10){
         continue;
     console.log(h); //1, 2, 4, 5, 7, 8, 10
 }
-*/
-
-//배열
-let score1=[60,90,70,100,75];
-score1.forEach(function(item, index){
-    console.log(item, index);
-});

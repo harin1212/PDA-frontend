@@ -264,15 +264,12 @@ switch(num2)
 */
 
 //반복문 - for
-/*
 for(let i=10; i<15; i+=2){ //2씩 증가
     console.log('i: ',i);
 }
-*/
 
 //반복문 - for of
 //Iterable
-/*
 let arr1=['a1','a2','a3'];
 console.log(arr1);
 console.log(arr1[0]);
@@ -304,8 +301,8 @@ console.log(typeof man, man);
 console.log(man.name);
 console.log(man.age);
 console.log(man.addr);
-console.log('--------------------')
 
+console.log('--------------------')
 //반복문 - for in
 for(let key in man){
     console.log(key);
@@ -325,37 +322,7 @@ console.log(data[1]); //e
 for(let item of data){
     console.log(item);
 }
-*/
 
-//반복문 - while
-/*
-console.log('--------------------')
-let k = 1;
-while(k < 10){
-    console.log(k);
-    if(k == 5) break;
-    k++;
-}
-
-console.log('--------------------')
-for(let j=1; j<10; j++){
-    if(j%3==0)
-        continue; // for문 위로
-    console.log(j); //1, 2, 4, 5, 7, 8
-}
-
-console.log('--------------------')
-let h=0;
-while(h<10){
-    h++;
-    if(h%3==0) 
-        continue;
-    console.log(h); //1, 2, 4, 5, 7, 8, 10
-}
-*/
-
-//배열
-let score1=[60,90,70,100,75];
-score1.forEach(function(item, index){
-    console.log(item, index);
-});
+data.forEach((item)=>{
+    console.log(item);
+})

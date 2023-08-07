@@ -17,7 +17,7 @@ var su=100;
 console.log('global-su',su); //su:10
 
 
-console.log('--------------------')
+console.log('--------------------');
 /*
 let i=10;
 for(let i=1; i<5; i++){
