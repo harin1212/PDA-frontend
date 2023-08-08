@@ -62,7 +62,6 @@ console.log(m2['irum'], m2['age'], m2['addr']);
 */
 
 //5. 클래스
-/*
 class Student{
     //this로 바로 사용불가. 생성자 구현해야함. -> 메서드 안쓰고 속성에 대한 정보만
     constructor(studentId, irum, age){//생성자
@@ -116,7 +115,6 @@ for(let item in s1){
     //console.log(s1.item); //에러 s1.item : item이라는 속성 없음.
     console.log(item, s1[item]);
 }
-*/
 
 //============ 프로토타입(prototype) ============
 class Student{
@@ -124,16 +122,8 @@ class Student{
         this.irum = irum;
         this.age = age;
     }
-    //Student마다 메소드 생성 -> 메모리 낭비 -> prototype property 사용!
-    /*
-    prt = function(){
-        console.log('prt method');
-    }
-    */
 }
-Student.prototype.prt=function(){
-    console.log('prt!!!');
-}
+
 let ins1 = new Student("a1", 20);
-let ins2 = new Student("a2", 10);
-console.dir(ins2);
+console.log(ins1);
+console.dir(ins1);

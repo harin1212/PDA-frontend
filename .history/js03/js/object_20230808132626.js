@@ -132,7 +132,7 @@ class Student{
     */
 }
 Student.prototype.prt=function(){
-    console.log('prt!!!');
+    console.log(prt)
 }
 let ins1 = new Student("a1", 20);
 let ins2 = new Student("a2", 10);
