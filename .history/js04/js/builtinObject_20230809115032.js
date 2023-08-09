@@ -188,36 +188,25 @@ try{
     console.log('end!!!');
 } */
 
-//Q. 이름, 나이 입력 받아서 예외처리
-//onclick : 이벤트
-//addEventListener : 이벤트 외에도
+try {
+    if (name != string)
+        console.log('name 에러');
+    if (age < 0)
+        throw new Error("age 에러"); //개체를 만들어서 던짐, 강력 에러
+} catch(e) {
+    console.log(e);
+} finally {
+    console.log('end!!!');
+}
+
 document.getElementById('btn').addEventListener('click', function(){
-    const elename = document.getElementById('name');
-    const eleage = document.getElementById('age');
+    let elename = document.getElementById('name');
+    let eleage = document.getElementById('age');
     let name = String(elename.value);
+    let age = Number(eleage.value);
 
-    //예외 처리
-    try {
-        let age = Number(eleage.value);
-        if (Number.isNaN(age)) { //age : 문자형 숫자면 NaN
-            throw new Error("숫자형 자료가 아님");
-        }
-        else {
-            if (age < 0) {
-                throw new Error ('0 보다 작습니다.');
-            }
-            else {
-                console.log(`이름 : ${name}, 나이 : ${age}`);
-            }
-        }} catch(e) {
-            console.log(e);
-        } finally {
-        console.log('done');
-    }
 
-    //초기화
-    elename.value="";
-    eleage.value="";
+
+    let res = document.getElementById('result')
+    res.innerHTML
 })
-
-

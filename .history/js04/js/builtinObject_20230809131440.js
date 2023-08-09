@@ -188,7 +188,6 @@ try{
     console.log('end!!!');
 } */
 
-//Q. 이름, 나이 입력 받아서 예외처리
 //onclick : 이벤트
 //addEventListener : 이벤트 외에도
 document.getElementById('btn').addEventListener('click', function(){
@@ -207,7 +206,7 @@ document.getElementById('btn').addEventListener('click', function(){
                 throw new Error ('0 보다 작습니다.');
             }
             else {
-                console.log(`이름 : ${name}, 나이 : ${age}`);
+                console.log(`이름 : ${name.value}, 나이 : ${age.value}`);
             }
         }} catch(e) {
             console.log(e);
@@ -218,6 +217,7 @@ document.getElementById('btn').addEventListener('click', function(){
     //초기화
     elename.value="";
     eleage.value="";
+
+/*     let res = document.getElementById('result')
+    res.innerHTML */
 })
-
-

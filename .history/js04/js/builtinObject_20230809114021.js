@@ -174,7 +174,7 @@ document.getElementById('view_btn').addEventListener('click', function(){
 } */
 
 //throw
-/* let a = 20;
+let a = 10;
 try{
     if(a>=20)
         console.log('a 는 20 이상');
@@ -186,38 +186,4 @@ try{
     console.log(e);
 } finally{
     console.log('end!!!');
-} */
-
-//Q. 이름, 나이 입력 받아서 예외처리
-//onclick : 이벤트
-//addEventListener : 이벤트 외에도
-document.getElementById('btn').addEventListener('click', function(){
-    const elename = document.getElementById('name');
-    const eleage = document.getElementById('age');
-    let name = String(elename.value);
-
-    //예외 처리
-    try {
-        let age = Number(eleage.value);
-        if (Number.isNaN(age)) { //age : 문자형 숫자면 NaN
-            throw new Error("숫자형 자료가 아님");
-        }
-        else {
-            if (age < 0) {
-                throw new Error ('0 보다 작습니다.');
-            }
-            else {
-                console.log(`이름 : ${name}, 나이 : ${age}`);
-            }
-        }} catch(e) {
-            console.log(e);
-        } finally {
-        console.log('done');
-    }
-
-    //초기화
-    elename.value="";
-    eleage.value="";
-})
-
-
+}

@@ -207,7 +207,7 @@ document.getElementById('btn').addEventListener('click', function(){
                 throw new Error ('0 보다 작습니다.');
             }
             else {
-                console.log(`이름 : ${name}, 나이 : ${age}`);
+                console.log(`이름 : ${name.value}, 나이 : ${age.value}`);
             }
         }} catch(e) {
             console.log(e);
@@ -219,5 +219,3 @@ document.getElementById('btn').addEventListener('click', function(){
     elename.value="";
     eleage.value="";
 })
-
-

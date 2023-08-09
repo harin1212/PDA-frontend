@@ -1,4 +1,4 @@
-//"use strict" //엄격하게
+"use strict" //엄격하게
 /*
 let a1 = [10,20,30];
 let a2 = a1;
@@ -148,76 +148,11 @@ document.getElementById('view_btn').addEventListener('click', function(){
     document.getElementById('result').innerHTML = result.join('');
 }) */
 
-//----------------- 예외처리 -----------------
-//try{} catch{} finally{}
-/* try{
-    console.log('test');
-    console.log('test2');
-    let arr = new Array(-1); //range error 개체 만든거 던짐
-    console.log('test3'); //출력 안됨
-} catch(e){
-    console.log(e); //e로 받아옴
-    console.log('ttt');
-} finally{
-    console.log('finally'); //정상적으로 동작하든 말든 finally 출력
-} */
-
-//toPrecision()
-/* try{
-    let arr = 10;
-    let result = arr.toPrecision(200); //toPrecision() 메서드는 Number 객체를 지정된 정밀도로 나타내는 문자열을 반환한다.
-    console.log(result);
-} catch(e){
-    console.log(e);
-} finally{
-    console.log('finally!!');
-} */
-
-//throw
-/* let a = 20;
+//예외처리
 try{
-    if(a>=20)
-        console.log('a 는 20 이상');
-    else if (a == 20)
-        throw new Error("20과 동일"); //개체를 만들어서 던짐, 강력 에러
-    else
-        throw "20보다 작다";
+
 } catch(e){
     console.log(e);
 } finally{
-    console.log('end!!!');
-} */
-
-//Q. 이름, 나이 입력 받아서 예외처리
-//onclick : 이벤트
-//addEventListener : 이벤트 외에도
-document.getElementById('btn').addEventListener('click', function(){
-    const elename = document.getElementById('name');
-    const eleage = document.getElementById('age');
-    let name = String(elename.value);
-
-    //예외 처리
-    try {
-        let age = Number(eleage.value);
-        if (Number.isNaN(age)) { //age : 문자형 숫자면 NaN
-            throw new Error("숫자형 자료가 아님");
-        }
-        else {
-            if (age < 0) {
-                throw new Error ('0 보다 작습니다.');
-            }
-            else {
-                console.log(`이름 : ${name}, 나이 : ${age}`);
-            }
-        }} catch(e) {
-            console.log(e);
-        } finally {
-        console.log('done');
-    }
-
-    //초기화
-    elename.value="";
-    eleage.value="";
-})
-
-
+    console.log('finally');
+}

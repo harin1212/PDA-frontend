@@ -220,4 +220,4 @@ document.getElementById('btn').addEventListener('click', function(){
     eleage.value="";
 })
 
-
+//----------------- DOM -----------------

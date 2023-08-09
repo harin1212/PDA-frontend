@@ -219,5 +219,3 @@ document.getElementById('btn').addEventListener('click', function(){
     elename.value="";
     eleage.value="";
 })
-
-
