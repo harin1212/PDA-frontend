@@ -1,0 +1,56 @@
+"use strict" //엄격하게
+/*
+let a1 = [10,20,30];
+let a2 = a1;
+console.log(a1===a2);
+
+//사용되는 정보 확인
+a1.forEach(item => {
+    console.log(item);
+});
+
+//a2 값 바꾸기 -> a1도 같이 바뀜
+a2[1] = 100;
+console.log('=====================')
+a1.forEach(item => {
+    console.log(item);
+});
+*/
+
+//Object assign(target,...sources)
+//배열 복제
+/*
+let a = [10,20,30];
+let newA = Object.assign([],a); //새로운 곳에 a를 복제해서 만들게
+//newA 값 바꾸기 -> a 값 유지됨
+newA[1] = 100;
+a.forEach(item => {
+    console.log(item);
+})
+console.log('=====================')
+newA.forEach(item => {
+    console.log(item);
+})
+*/
+//객체 복제
+/*
+let p1 = {name: 'hong'}
+console.log(p1)
+
+Object.assign(p1,{age:10})
+console.log(p1)
+Object.assign(p1,{name:'park'});
+console.log(p1)
+*/
+//두 객체가 같은지
+let o = new Object([10,20,30]);
+let o2 = new Object([10,20,30]);
+
+console.log(Object.is(o,o2));
+console.log(Object.is(o[0], o2[0]));
+let o3 = {};
+Object.assign(o3,o2);
+let o4=o3;
+
+console.log(Object.is(o2,o3));
+console.log(Object.is(o3,o4));
