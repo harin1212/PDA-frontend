@@ -52,9 +52,9 @@ for (let i = elered.length-1; i>=0; i--) {
 [...elered].forEach(item => item.className = 'green');
  */
 //sol 4. querySelectorAll 사용
-/* document.querySelectorAll('.red')
+document.querySelectorAll('.red')
 .forEach(item => item.className = 'green');
- */
+
 
 //------------------ Node search - child --------------------------
 //children : 자식중 element type 요소만 반환
@@ -76,25 +76,6 @@ ele_m3.previousElementSibling.style.color = 'red'; //이전 형제 글씨 red로
 //------------------ 클래스 속성 값 변경 하거나 얻어오기 --------------------------
 //className : class attribute 값을 변경하거나 얻어올 때
 //classList
-
-//className
-/* let cName = document.getElementById('m2');
+let cName = document.getElementById('m2').className;
 console.log(cName.className);
-cName.className = 'green'; //변경 하는 것
-
-ele_li.forEach(item => {
-    if(item.className == 'red')
-        item.className = 'green';
-}) */
-
-//classList
-/* let ele_li = document.querySelectorAll('li'); //정적 -> forEach 가능
-ele_li.forEach(item => {
-    if(item.classList.contains('red'))
-        item.classList.replace('red','green');
-}) */
-
-/* //html 출력
-document.getElementById('aaa').innerHTML = "<p>hello</p>"; //hello
-//text 출력
-document.getElementById('aaa').textContent = "<p>hello</p>"; //<p>hello</p> */
+cName.className = 'red'; //변경 하는 것

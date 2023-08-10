@@ -1,0 +1,15 @@
+.add{
+    display: inline-block;
+
+}
+
+.lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+select{
+    width: 20vw;
+}

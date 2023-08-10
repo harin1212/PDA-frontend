@@ -88,13 +88,10 @@ ele_li.forEach(item => {
 }) */
 
 //classList
-/* let ele_li = document.querySelectorAll('li'); //정적 -> forEach 가능
+let ele_li = document.querySelectorAll('li'); //정적 -> forEach 가능
 ele_li.forEach(item => {
     if(item.classList.contains('red'))
         item.classList.replace('red','green');
-}) */
+})
 
-/* //html 출력
-document.getElementById('aaa').innerHTML = "<p>hello</p>"; //hello
-//text 출력
-document.getElementById('aaa').textContent = "<p>hello</p>"; //<p>hello</p> */
+document.getElementById('aaa').innerHTML = "<p>hello</p>";

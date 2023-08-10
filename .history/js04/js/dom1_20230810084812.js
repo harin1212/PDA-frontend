@@ -76,25 +76,6 @@ ele_m3.previousElementSibling.style.color = 'red'; //이전 형제 글씨 red로
 //------------------ 클래스 속성 값 변경 하거나 얻어오기 --------------------------
 //className : class attribute 값을 변경하거나 얻어올 때
 //classList
-
-//className
-/* let cName = document.getElementById('m2');
+let cName = document.getElementById('m2');
 console.log(cName.className);
 cName.className = 'green'; //변경 하는 것
-
-ele_li.forEach(item => {
-    if(item.className == 'red')
-        item.className = 'green';
-}) */
-
-//classList
-/* let ele_li = document.querySelectorAll('li'); //정적 -> forEach 가능
-ele_li.forEach(item => {
-    if(item.classList.contains('red'))
-        item.classList.replace('red','green');
-}) */
-
-/* //html 출력
-document.getElementById('aaa').innerHTML = "<p>hello</p>"; //hello
-//text 출력
-document.getElementById('aaa').textContent = "<p>hello</p>"; //<p>hello</p> */

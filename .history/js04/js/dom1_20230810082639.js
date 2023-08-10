@@ -1,7 +1,5 @@
 //----------------- DOM -----------------
 
-//const { default: next } = require("next/types");
-
 /* document.getElementById('win_open').onclick = function(){
     //location.href="http://www.naver.com";
     document.write('hello');
@@ -52,49 +50,18 @@ for (let i = elered.length-1; i>=0; i--) {
 [...elered].forEach(item => item.className = 'green');
  */
 //sol 4. querySelectorAll 사용
-/* document.querySelectorAll('.red')
+document.querySelectorAll('.red')
 .forEach(item => item.className = 'green');
- */
 
-//------------------ Node search - child --------------------------
+console.log(elered);
+
 //children : 자식중 element type 요소만 반환
-//first Child, lastChild, nextElementSibiling, previousElementSibling
-//hasChildNodes
+//first Child, lastChild, nextSibiling, previousSibling, hasChildNodes
 
-/* const ul_ele = document.getElementsByTagName('ul')[0];
+
+
+const ul_ele = document.getElementsByTagName('ul')[0];
 console.log(ul_ele.children); //모든 자식 요소 찾기
 console.log(ul_ele.hasChildNodes()); //함수
-console.log(ul_ele.firstElementChild); //가장 먼저 사용하는 거
-console.log(ul_ele.lastElementChild);
-
-let ele_m3 = document.getElementById('m3');
-let next_ele_m3 = ele_m3.nextElementSibling; //다음 형제
-console.log(next_ele_m3);
-next_ele_m3.style.backgroundColor = 'yellow'; //다음 형제 배경 yellow로
-ele_m3.previousElementSibling.style.color = 'red'; //이전 형제 글씨 red로 */
-
-//------------------ 클래스 속성 값 변경 하거나 얻어오기 --------------------------
-//className : class attribute 값을 변경하거나 얻어올 때
-//classList
-
-//className
-/* let cName = document.getElementById('m2');
-console.log(cName.className);
-cName.className = 'green'; //변경 하는 것
-
-ele_li.forEach(item => {
-    if(item.className == 'red')
-        item.className = 'green';
-}) */
-
-//classList
-/* let ele_li = document.querySelectorAll('li'); //정적 -> forEach 가능
-ele_li.forEach(item => {
-    if(item.classList.contains('red'))
-        item.classList.replace('red','green');
-}) */
-
-/* //html 출력
-document.getElementById('aaa').innerHTML = "<p>hello</p>"; //hello
-//text 출력
-document.getElementById('aaa').textContent = "<p>hello</p>"; //<p>hello</p> */
+console.log(ul_ele.firstChild); //가장 먼저 사용하는 거
+console.log(ul_ele.lastChild);
