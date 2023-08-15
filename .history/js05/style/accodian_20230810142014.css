@@ -1,0 +1,25 @@
+
+.accodian{
+    width: 80%;
+    height: 8vh;
+    background-color: skyblue;
+    border: 1px solid black;
+    margin: 1px;
+    text-align: left;
+    font-size: 30px;
+    /* cusor : 마우스 모양 */
+    cursor: pointer;
+}
+
+.panel{
+    padding: 0 2vw;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.2s ease-out;
+    /* display: none; */
+}
+
+.active, .accodian:hover{
+    background-color: rgba(135, 207, 235, 0.696);
+    color: white;
+}

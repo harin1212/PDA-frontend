@@ -1,0 +1,13 @@
+.tablist{
+    display: flex;
+    list-style: none;
+}
+
+.tabItem{
+    padding: 50px;
+}
+
+.tablii {
+    list-style: none;
+    text-decoration: none;
+}

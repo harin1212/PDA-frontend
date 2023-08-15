@@ -1,0 +1,37 @@
+
+* {
+    margin: 0;
+}
+
+.tab{
+    width: 80vw;
+}
+
+.tablist{
+    list-style: none;
+    margin-bottom: 0;
+    border-bottom: 1px solid black;
+}
+
+.tabItem{
+    display: inline-block;
+    margin-top: 0;
+    padding: 40px;
+    font-size: 30px;
+}
+
+.tabItem:hover{
+    background-color: rgba(255, 251, 127, 0.995);
+    box-shadow:3px 3px 3px 3px #999;
+}
+
+.tabItem a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 1vh 3vw 0vh 5;
+}
+
+.tabpanel{
+    margin: 10%;
+}

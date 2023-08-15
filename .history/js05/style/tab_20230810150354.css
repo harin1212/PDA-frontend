@@ -1,0 +1,19 @@
+.tablist{
+    display: flex;
+    list-style: none;
+}
+
+.tabItem{
+    padding: 50px;
+    font-size: 30px;
+}
+
+.tabItem:hover{
+    background-color: aquamarine;
+}
+
+.tabItem a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}

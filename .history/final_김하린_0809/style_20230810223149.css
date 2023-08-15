@@ -1,0 +1,23 @@
+.add{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.lists{
+    width: 50%;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px;
+}

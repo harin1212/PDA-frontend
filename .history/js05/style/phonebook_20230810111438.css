@@ -1,0 +1,19 @@
+
+#myInput{
+    width: 80%;
+    font-size: 1rem;
+    border: 1px solid silver;
+    padding: 1vh 2vw;
+    margin-bottom: 1vh;
+}
+
+#myul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+}
+
+#myul li a{
+    border: 1px solid silver;
+}

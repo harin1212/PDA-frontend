@@ -1,0 +1,25 @@
+.add{
+    display: inline-block;
+    width: 100px;
+
+}
+
+.lists{
+    width: 50%;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+select{
+    width: 20vw;
+    height: 20vh;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

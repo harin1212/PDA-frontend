@@ -1,0 +1,24 @@
+.add{
+    display: inline-block;
+
+}
+
+.lists{
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+select{
+    width: 15vw;
+    height: 10vh;
+}
+
+.button{
+    width: 5vw;
+    height: 2vh;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}

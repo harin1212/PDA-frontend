@@ -1,0 +1,8 @@
+.tablist{
+    display: flex;
+}
+
+.tabItem{
+    padding: 50px;
+    text-decoration: none;
+}

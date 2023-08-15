@@ -1,0 +1,27 @@
+.tablist{
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+    border-bottom: 1px solid black;
+}
+
+.tabItem{
+    margin-top: 0;
+    padding: 40px;
+    font-size: 30px;
+}
+
+.tabItem:hover{
+    background-color: rgba(255, 251, 127, 0.995);
+    text-shadow: 10px;
+}
+
+.tabItem a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.tabpanel{
+    margin: 10%;
+}
